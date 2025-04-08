@@ -1,0 +1,101 @@
+<!-- header.html -->
+<template id="header-template">
+    <header>
+    <div class="header-area">
+        <div class="main-header ">
+            <div class="header-top d-none d-lg-block">
+                <div class="container-fluid">
+                    <div class="col-xl-12">
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <div class="header-info-left d-flex">
+                                <ul>     
+                                    <li>Phone: +91 9823470646</li>
+                                    <li>Email: <a href="mailto:info@sandeshbordesports.org">info@sandeshbordesports.org</a></li>
+                                </ul>
+                                <div class="header-social">    
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header-info-right d-flex align-items-center">
+                                <ul class="contact-now">     
+                                    <li><a href="#">Subscribe Now</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom header-sticky">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/img/logo/sandesh_borde.jpeg" height="70" alt="Sandesh Borde Sports Foundation Logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10">
+                            <div class="menu-wrapper d-flex align-items-center justify-content-end">
+                                <div class="main-menu d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">                                                                                          
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li class="dropdown">
+                                                <a href="program.html" class="dropdown-toggle" data-toggle="dropdown">Projects</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="disha.html">Project Disha</a></li>
+                                                    <li><a href="sanvedana.html">Project Sanvedana</a></li>
+                                                    <li><a href="observation_house_coaching.html">Observation House Coaching</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="events.html">Events</a></li>
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="header-right-btn d-none d-lg-block ml-20">
+                                    <a href="contact.html" class="btn header-btn">Donate</a>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+    <style>
+        /* Show dropdown on hover */
+        #navigation .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        /* Compact dropdown styling */
+        .dropdown-menu {
+            min-width: 220px; /* Fixed width to fit content */
+            padding: 0; /* Remove excessive padding */
+            background-color: #fff;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 0; /* Align closely with parent link */
+        }
+        .dropdown-menu li a {
+            color: #2d2d2d;
+            padding: 8px 15px !important; /* Reduced padding for compactness */
+            font-size: 14px; /* Slightly smaller font size */
+            display: block;
+        }
+        .dropdown-menu li a:hover {
+            background-color: #f8f9fa;
+            color: #000;
+        }
+    </style>
+    </template>
