@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="zxx">
 <head>
     <meta charset="utf-8">
@@ -9,7 +9,7 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
-    <!-- CSS here -->
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/slicknav.css">
@@ -24,9 +24,41 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Custom Styles for Vision and Mission -->
+    <style>
+        .vision-mission h5 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .vision-mission p, .vision-mission ul {
+            text-align: left;
+        }
+        .vision-mission ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .vision-mission ul li {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .vision-mission ul li:before {
+            content: '\f111';
+            font-family: 'FontAwesome';
+            position: absolute;
+            left: 0;
+            top: 5px;
+            color: #ff5e13;
+            font-size: 10px;
+        }
+    </style>
 </head>
 <body>
-    <!-- Preloader Start -->
+    <!-- Preloader -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
@@ -37,9 +69,9 @@
             </div>
         </div>
     </div>
-    <!-- Preloader End -->
-    <div id="header"></div>
 
+    <!-- Header -->
+    <div id="header"></div>
     <script>
         fetch("header.html")
             .then(response => response.text())
@@ -49,8 +81,9 @@
                 document.getElementById("header").appendChild(template.cloneNode(true));
             });
     </script>
+
     <main>
-        <!-- Hero Start -->
+        <!-- Hero Section -->
         <div class="slider-area2">
             <div class="slider-height2 d-flex align-items-center">
                 <div class="container">
@@ -64,8 +97,8 @@
                 </div>
             </div>
         </div>
-        <!-- Hero End -->
-        <!-- About Section Start -->
+
+        <!-- About Section -->
         <section class="about-low-area section-padding2">
             <div class="container">
                 <div class="row">
@@ -77,24 +110,24 @@
                             </div>
                             <p>The Sandesh Borde Sports Foundation is dedicated to promoting education, sports, social reforms, and public health across Maharashtra without any discrimination of caste, creed, or language. Established with a vision to uplift communities, we focus on creating opportunities for youth and the underprivileged through sports and knowledge dissemination, all without monetary gain.</p>
                             <p>Our efforts include organizing sports tournaments, coaching camps, and social welfare programs to foster talent, health, and unity. From supporting children in conflict with the law to empowering kids in challenging environments, we aim to transform lives by channeling energy into positive outcomes.</p>
-                            <a href="contact.html" class="btn">Get Involved</a>
+                            <a href="https://forms.gle/xyPbYEp4MfcpVNH26" class="btn">Get Involved</a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="about-img">
                             <div class="about-font-img d-none d-lg-block">
-                                <img src="assets/img/gallery/about2.png" alt="Sports Activity">
+                                <img src="assets/img/gallery/about21.png" alt="Sports Activity">
                             </div>
                             <div class="about-back-img">
-                                <img src="assets/img/gallery/about1.png" alt="Foundation Work">
+                                <img src="assets/img/gallery/about11.jpg" alt="Foundation Work">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- About Section End -->
-        <!-- Objectives Section Start -->
+
+        <!-- Objectives Section -->
         <div class="service-area section-padding30">
             <div class="container">
                 <div class="row justify-content-center">
@@ -112,7 +145,7 @@
                                 <span class="flaticon-null-1"></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="program.html">Sports Promotion</a></h5>
+                                <h5><a href="#">Sports Promotion</a></h5>
                                 <p>Develop and propagate traditional, national, and international sports across Maharashtra through tournaments, camps, and training institutions.</p>
                             </div>
                         </div>
@@ -123,7 +156,7 @@
                                 <span class="flaticon-think"></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="program.html">Education & Health</a></h5>
+                                <h5><a href="#">Education & Health</a></h5>
                                 <p>Advance knowledge in health, fitness, and alternative medicines like yoga and naturopathy, alongside educational initiatives for all.</p>
                             </div>
                         </div>
@@ -134,7 +167,7 @@
                                 <span class="flaticon-gear"></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="program.html">Social Impact</a></h5>
+                                <h5><a href="#">Social Impact</a></h5>
                                 <p>Provide relief during natural calamities, organize social awareness campaigns, and support the needy with resources and opportunities.</p>
                             </div>
                         </div>
@@ -142,8 +175,45 @@
                 </div>
             </div>
         </div>
-        <!-- Objectives Section End -->
-        <!-- Call to Action Start -->
+
+        <!-- Vision and Mission Section -->
+        <section class="about-low-area section-padding2">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-9 col-md-10">
+                        <div class="section-tittle text-center mb-80">
+                            <span>Our Purpose</span>
+                            <h2>Vision and Mission</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="vision-mission mb-50">
+                            <h5>Our Vision</h5>
+                            <p>To build a healthier, empowered, and inclusive society by nurturing sportsmanship, education, and social responsibility—fostering excellence in traditional, national, and international sports while promoting holistic development and social well-being across Maharashtra and beyond.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="vision-mission mb-50">
+                            <h5>Our Mission</h5>
+                            <p>The mission of the Sandesh Borde Sports Foundation is to:</p>
+                            <ul>
+                                <li>Promote and develop all forms of sports, providing equal opportunities to individuals regardless of caste, creed, or background.</li>
+                                <li>Empower athletes through structured training, coaching camps, tournaments, and educational support to build a strong, skilled sporting community.</li>
+                                <li>Establish institutions, hostels, gyms, and health centers that nurture physical, mental, and emotional well-being.</li>
+                                <li>Create platforms for youth and underprivileged talents to excel in sports and life through access to resources, mentoring, and inclusive programs.</li>
+                                <li>Foster public health awareness, environmental care, and social reforms through seminars, wellness programs, medical camps, and community initiatives.</li>
+                                <li>Encourage the integration of alternative therapies, fitness education, and lifestyle practices to promote a balanced, healthy, and happy life.</li>
+                                <li>Contribute to national unity, integrity, and development through educational publications, awareness campaigns, and civic responsibility programs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
         <section class="wantToWork-area">
             <div class="container">
                 <div class="wants-wrapper w-padding2 section-bg" data-background="assets/img/gallery/section_bg01.png">
@@ -154,14 +224,15 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-4">
-                            <a href="contact.html" class="btn white-btn f-right sm-left">Become a Volunteer</a>
+                            <a href="https://forms.gle/xyPbYEp4MfcpVNH26" class="btn white-btn f-right sm-left">Become a Volunteer</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Call to Action End -->
     </main>
+
+    <!-- Footer -->
     <footer>
         <div class="footer-wrapper section-bg2" data-background="assets/img/gallery/footer_bg.png">
             <div class="footer-area footer-padding">
@@ -170,7 +241,7 @@
                         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
-                                    <div class="footer-logo mb-20 ">
+                                    <div class="footer-logo mb-20">
                                         <a href="index.html"><img src="assets/img/logo/sandesh_borde.jpeg" class="rounded-circle" alt="Sandesh Borde Sports Foundation Logo"></a>
                                     </div>
                                 </div>
@@ -181,11 +252,11 @@
                                 <div class="footer-tittle">
                                     <h4>Contact Info</h4>
                                     <ul>
-                                        <li><p>Flat No. 5, F Building, K M Park,
-                                            Nr Shivaji Vidyalay, Ambedkar Road, Dehu Road</p></li>
+                                        <li><p>Flat No. 5, F Building, K M Park, Nr Shivaji Vidyalay, Ambedkar Road, Dehu Road</p></li>
                                         <li><p>Pune, Maharashtra, 412101</p></li>
                                         <li><a href="tel:+919823470646">Phone: +91 9823470646</a></li>
-                                        <li><a href="mailto:sandeshbordesports@gmail.com">Email: sandeshbordesports@gmail.com</a></li>                                    </ul>
+                                        <li><a href="mailto:sandeshbordesports@gmail.com">Email: sandeshbordesports@gmail.com</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -220,10 +291,10 @@
                             <div class="col-xl-2 col-lg-3">
                                 <div class="footer-social f-right">
                                     <a href="https://www.linkedin.com/in/sandesh-borde-sports-foundation-17a798252/"><i class="fab fa-linkedin"></i></a>
-                                        <a href="https://www.facebook.com/share/1BaHoRzH3T/"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="https://www.instagram.com/sandeshbordesports.official?igsh=MzNlNGNkZWQ4Mg=="><i class="fab fa-instagram"></i></a>
-                                        <a href="https://youtube.com/@sandeshbordesportsfoundation?si=CT7jpFMxoxaEyHzk"><i class="fab fa-youtube"></i></a>  
-                                    </div>
+                                    <a href="https://www.facebook.com/share/1BaHoRzH3T/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/sandeshbordesports.official?igsh=MzNlNGNkZWQ4Mg=="><i class="fab fa-instagram"></i></a>
+                                    <a href="https://youtube.com/@sandeshbordesportsfoundation?si=CT7jpFMxoxaEyHzk"><i class="fab fa-youtube"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -234,10 +305,10 @@
 
     <!-- Scroll Up -->
     <div id="back-top">
-        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+        <a title="Go to Top" href="#"><i class="fas fa-level-up-alt"></i></a>
     </div>
 
-    <!-- JS here -->
+    <!-- JS -->
     <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
